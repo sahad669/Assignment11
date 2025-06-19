@@ -1,12 +1,38 @@
-# React + Vite
+# Assignment11 - Placeholder API React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple multi-page React application demonstrating client-side routing and API data fetching using **React Router** and the **JSONPlaceholder API**.
 
-Currently, two official plugins are available:
+🌐 [Live Demo on GitHub Pages](https://sahad669.github.io/Assignment11/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📚 Project Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Built with **React** and **React Router**  
+✅ Navigation between Home, About, and User pages  
+✅ User data fetched from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users/1)  
+✅ Loading state while fetching data  
+✅ Dynamic routing for user details page  
+✅ Responsive design with **Tailwind CSS**  
+✅ 404 Not Found page for invalid routes  
+
+---
+
+## 🧩 Pages and Components
+
+- **Navbar** – visible on all pages with active route highlighting  
+- **Home Page** – landing welcome message  
+- **About Page** – app and project info  
+- **User Page** – fetches and displays a single user's name, email, and phone  
+- **User Details Page** – dynamic route to display extended user info  
+- **NotFound Page** – shown when the route doesn't match  
+
+---
+
+## 📦 Technologies Used
+
+- **React**
+- **React Router DOM**
+- **Axios**
+- **Tailwind CSS**
+- **JSONPlaceholder API**
