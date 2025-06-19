@@ -30,11 +30,11 @@ const User = () => {
     User Details
   </h2>
 
-  <div className="w-full max-w-md rounded-2xl shadow-lg p-8 space-y-6 bg-white transition-shadow hover:shadow-2xl">
+  <div className="w-full max-w-md rounded-2xl shadow-lg p-8 space-y-6 bg-[#2e455c] transition-shadow hover:shadow-2xl">
     <div className="space-y-4">
-      <h3 className="text-xl md:text-2xl font-semibold text-[#334155]">{users.name}</h3>
-      <p className="text-base md:text-lg text-[#334155]"><strong>Email:</strong> {users.email}</p>
-      <p className="text-base md:text-lg text-[#334155]"><strong>Phone:</strong> {users.phone}</p>
+      <h3 className="text-xl md:text-2xl font-semibold text-white">Name: {users.name}</h3>
+      <p className="text-base md:text-lg text-white"><strong>Email:</strong> {users.email}</p>
+      <p className="text-base md:text-lg text-white"><strong>Phone:</strong> {users.phone}</p>
     </div>
 
     <Link to={`/userdetails/${users.id}`}>

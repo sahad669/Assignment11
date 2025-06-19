@@ -29,22 +29,22 @@ const UserDetails = () => {
 
   return (
     <div className="min-h-screen bg-[#dce3ea] flex flex-col items-center justify-center px-4 py-10">
-      <div className="w-full max-w-md rounded-2xl shadow-lg p-8 space-y-6 bg-white transition-shadow hover:shadow-2xl">
-        <h3 className="text-xl md:text-2xl font-semibold text-[#334155]">{user.name}</h3>
-        <p className="text-base md:text-lg text-[#334155]">
+      <div className="w-full max-w-md rounded-2xl shadow-lg p-8 space-y-6 bg-[#2e455c] transition-shadow hover:shadow-2xl">
+        <h3 className="text-xl md:text-2xl font-semibold text-white">Name: {user.name}</h3>
+        <p className="text-base md:text-lg text-white">
           <strong>Email:</strong> {user.email}
         </p>
-        <p className="text-base md:text-lg text-[#334155]">
+        <p className="text-base md:text-lg text-white">
           <strong>Phone:</strong> {user.phone}
         </p>
-        <p className="text-base md:text-lg text-[#334155]">
+        <p className="text-base md:text-lg text-white">
               <strong>Username:</strong> {user.username}
         </p>
         <div>
-           <p className="text-base md:text-lg text-[#334155]">
+           <p className="text-base md:text-lg text-white">
               <strong>Website:</strong> {user.website}
         </p>
-         <p className="text-base md:text-lg text-[#334155]">
+         <p className="text-base md:text-lg text-white">
               <strong>Company Name:</strong> {user.company?.name}
         </p>
         </div>
